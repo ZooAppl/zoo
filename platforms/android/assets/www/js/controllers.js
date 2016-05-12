@@ -1,8 +1,5 @@
 angular.module('starter.controllers', [])
 
-.controller('MainCtrl', ['$scope', function ($scope) {
-
-    }])
 
 .controller('MapCtrl', function($scope) {})
 
@@ -26,4 +23,6 @@ angular.module('starter.controllers', [])
   $scope.settings = {
     enableFriends: true
   };
-});
+})
+.controller('QRcodeCtrl', function($scope){})
+;

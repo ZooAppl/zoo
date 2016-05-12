@@ -1,7 +1,7 @@
 <ion-view view-title="Animals">
   <ion-content>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="animal in animals" type="item-text-wrap" href="#/tab/animals/{{animal.id}}">
+      <ion-item class="item-remove-animate  item-thumbnail-left item-icon-right" ng-repeat="animal in animals" type="item-text-wrap" href="#/tab/animals/{{animal.id}}">
         <img ng-src="{{animal.face}}">
         <h2>{{animal.name}}</h2>
         <p>{{animal.lastText}}</p>
