@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/marek/Documents/ZooApp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="acb04bf565e73883e0cb63c736fe0e7e190dc033">
+        <dex dex="/home/marek/Documents/ZooApp/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_050ae815ab80cf9792ea1195e490a2b553c8a9f7.jar" />
+    </item>
+    <item
+        jar="/home/marek/Documents/Git/ZooApp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="24e3c5a1d3c71cb8815c3b38db6f4ed11a0ec3da">
+        <dex dex="/home/marek/Documents/Git/ZooApp/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_8ac63ec178fc7131ad46307e7b14dc6c4edd4038.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/marek/Documents/ZooApp/platforms/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon.png",
+        "source": "/home/marek/Documents/ZooApp/platforms/android/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/home/marek/Documents/Git/ZooApp/platforms/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon.png",
+        "source": "/home/marek/Documents/Git/ZooApp/platforms/android/res/drawable-xhdpi/icon.png"
+    }
+]

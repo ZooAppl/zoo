@@ -6,7 +6,14 @@
 -->
 <ion-view view-title="{{animal.name}}">
   <ion-content class="padding">
-    <img ng-src="{{animal.face}}" style="width: 64px; height: 64px">
+    <div class="row">
+      <div class="col col-25">
+        <img ng-src="{{animal.face}}" style="width: 64px; height: 64px">
+      </div>
+      <div class="col">
+        <button class="button button-energized" >Update</button>
+      </div>
+    </div>
     <p>
       {{animal.text}}
     </p>
