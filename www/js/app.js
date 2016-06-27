@@ -96,6 +96,7 @@ var zooapp = angular.module('starter', ['ngCordova', 'ionic', 'starter.controlle
 });
 
 
+
 //pouzitie barcode-scanner pluginu
 zooapp.controller("ZooAppController", function($scope, $cordovaBarcodeScanner, $state, Animals) {
  
