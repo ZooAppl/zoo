@@ -2,18 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/home/marek/Documents/ZooApp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jar="D:\ZooApp\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\release\jars\classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="acb04bf565e73883e0cb63c736fe0e7e190dc033">
-        <dex dex="/home/marek/Documents/ZooApp/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_050ae815ab80cf9792ea1195e490a2b553c8a9f7.jar" />
+        sha1="27940956dd791f9d4489be243d2a8f3e58db200f">
+        <dex dex="D:\ZooApp\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-unspecified-release_3cfe5852e549a95e90cae766deedc6c91a73b345.jar" />
     </item>
     <item
-        jar="/home/marek/Documents/Git/ZooApp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jar="D:\ZooApp\platforms\android\libs\com.google.zxing.client.android.captureactivity.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="24e3c5a1d3c71cb8815c3b38db6f4ed11a0ec3da">
-        <dex dex="/home/marek/Documents/Git/ZooApp/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_8ac63ec178fc7131ad46307e7b14dc6c4edd4038.jar" />
+        sha1="daca75b7de34e1ca229682f2cd54b54e1c324be6">
+        <dex dex="D:\ZooApp\platforms\android\build\intermediates\pre-dexed\release\com.google.zxing.client.android.captureactivity_cd35b85b666d3b56ee11d661dbd6320c8efe802a.jar" />
+    </item>
+    <item
+        jar="D:\ZooApp\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5e25bcbcb4c51d0c8dc170c01d799efe52a93640">
+        <dex dex="D:\ZooApp\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_8d1b2cddc250f17a2bb897e3ed31103e7f66b170.jar" />
     </item>
 
 </items>

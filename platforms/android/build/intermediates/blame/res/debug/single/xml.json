@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/home/marek/Documents/ZooApp/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
-        "source": "/home/marek/Documents/ZooApp/platforms/android/res/xml/config.xml"
+        "merged": "D:\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "D:\\ZooApp\\platforms\\android\\res\\xml\\preferences.xml"
     },
     {
-        "merged": "/home/marek/Documents/Git/ZooApp/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
-        "source": "/home/marek/Documents/Git/ZooApp/platforms/android/res/xml/config.xml"
+        "merged": "D:\\home\\marek\\Documents\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "D:\\home\\marek\\Documents\\ZooApp\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "D:\\home\\marek\\Documents\\Git\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "D:\\home\\marek\\Documents\\Git\\ZooApp\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "D:\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "D:\\ZooApp\\platforms\\android\\res\\xml\\config.xml"
     }
 ]

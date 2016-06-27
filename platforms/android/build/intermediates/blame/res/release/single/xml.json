@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\release\\xml\\config.xml",
+        "source": "D:\\ZooApp\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "D:\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\release\\xml\\preferences.xml",
+        "source": "D:\\ZooApp\\platforms\\android\\res\\xml\\preferences.xml"
+    }
+]

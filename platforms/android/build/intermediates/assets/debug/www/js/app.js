@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-var zooapp = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','ngCordova'])
+var zooapp = angular.module('starter', ['ngCordova', 'ionic', 'starter.controllers', 'starter.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon.png",
+        "source": "D:\\ZooApp\\platforms\\android\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\launcher_icon.png",
+        "source": "D:\\ZooApp\\platforms\\android\\res\\drawable-xhdpi\\launcher_icon.png"
+    }
+]

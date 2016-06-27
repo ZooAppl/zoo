@@ -1,0 +1,16 @@
+<ion-view view-title="Animals">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate  item-thumbnail-left item-icon-right" ng-repeat="animal in animals" type="item-text-wrap" href="#/tab/animals/{{animal.id}}">
+        <img ng-src="{{animal.face}}">
+        <h2>{{animal.name}}</h2>
+        <p>{{animal.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(animal)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
