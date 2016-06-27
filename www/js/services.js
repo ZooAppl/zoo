@@ -11,7 +11,7 @@ angular.module('starter.services', [])
   }, {
     id: 1,
     name: 'The giraffe',
-    Text: 'The tallest living terrestrial animal ',
+    text: 'The tallest living terrestrial animal ',
     face: 'img/giraffe.jpg'
   }];
 
@@ -23,6 +23,15 @@ angular.module('starter.services', [])
       for (var i = 0; i < animals.length; i++) {
         if (animals[i].id === parseInt(animalId)) {
           return animals[i];
+        }
+      }
+      return null;
+    },
+    id: function(animalName){
+      for (var i = 0; i < animals.length; i++) {
+      console.log(animals[i].name + " == " + animalName + " -> " + String(animals[i].name == animalName));
+        if(animals[i].name == animalName){
+          return animals[i].id;
         }
       }
       return null;

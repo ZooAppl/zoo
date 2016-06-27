@@ -24,5 +24,5 @@ angular.module('starter.controllers', [])
     enableFriends: true
   };
 })
-.controller('QRcodeCtrl', function($scope){})
+.controller('QRcodeCtrl', function($scope, Animals){})
 ;
