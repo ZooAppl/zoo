@@ -14,8 +14,11 @@
         <button class="button button-energized" >Update</button>
       </div>
     </div>
-    <p>
-      {{animal.text}}
+    <p ng-if="kids === true">
+       {{animal.kids}}
+    </p>
+    <p ng-if="kids != true">
+       {{animal.text}}
     </p>
   </ion-content>
 </ion-view>

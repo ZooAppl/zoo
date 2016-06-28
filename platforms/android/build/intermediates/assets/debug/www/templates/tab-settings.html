@@ -1,10 +1,10 @@
 <ion-view view-title="Settings">
   <ion-content>
     <ion-list>
-    <ion-toggle  ng-model="settings.enableKids">
+    <ion-toggle  ng-model="kids" ng-change="toggleValue()">
         Enable Kids version
     </ion-toggle>
-    <ion-toggle  ng-model="settings.enableNotifications">
+    <ion-toggle  ng-model="notifications">
         Enable notifications
     </ion-toggle>
     </ion-list>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "docbook-xml-4.5/docbookx.dtd">
+<book lang="sk">
+    <title>Záverečná správa</title>
+    <subtitle> Mobilná aplikácia pre galériu/ZOO (skupina B) </subtitle>
+    <bookinfo>
+        <authorgroup>
+            <author>
+                <firstname>
+                    Matúš
+                </firstname>
+                <surname>
+                    Sedlák
+                </surname>
+            </author>
+            <author>
+                <firstname>
+                    Marek
+                </firstname>
+                <surname>
+                    Zgabaj
+                </surname>
+            </author>
+            <author>
+                <firstname>
+                    Michal
+                </firstname>
+                <surname>
+                    Ringer
+                </surname>
+            </author>
+        </authorgroup>
+    </bookinfo>
+
+    <chapter>
+        <title>Zadanie projektu</title>
+        <section>
+            <para>Vašou úlohou bude implementovať mobilnú aplikáciu, ktorá umožní návštevníkom získať dodatočné informácie pre miesta záujmu (dodatočný text, obrázky, odkazy, ...). 
+                Vzhľadom na takmer nemožnú automatickú lokalizáciu využite QR-kódy, alebo podobnú technológiu.
+            </para>
+        </section>
+    </chapter>
+
+    <chapter>
+        <title>Rozdelenie práce</title>
+        <section>
+            <title>Matúš Sedlák</title>
+            <para>wiki, QR plugin, icon</para>
+            <para>QR plugin</para>
+            <para>icon</para>
+        </section>
+        <section>
+            <title>Marek Zgabaj</title>
+            <para>GUI</para>
+            <para>splash</para>
+            <para>layout</para>
+        </section>
+        <section>
+            <title>Michal Ringer</title>
+            <para>backend (javascript)</para>
+        </section>
+    </chapter>
+
+    <chapter>
+        <title>Jednotlivé záverečné správy</title>
+        <section>
+            <title>Matúš Sedlák</title>
+            <para> V našom projekte som pracoval na funkcii skenovania QR kódov. 
+                Cordova framework priamo obsahuje takýto plugin. Importoval som tento plugin do aplikácie. 
+                Na tabe Scan som pridal tlačidlo, ktoré po stlačení spustí fotoaparát na zariadení a na obrazovke sa ukáže rozhranie na skenovanie kódov. 
+                Uživateľ oskenuje kód a je presmerovaný do textu o konkrétnom zvierati, v prípade že naskenované zviera je v databáze aplikácie. Text má 2 verzie. 
+                Podla nastavenia je zobrazený text, buď pre deti alebo pre dospelých.
+                Podieľal som sa na príprave wiki stránky a dokumentácii. </para>
+        </section>
+        <section>
+            <title>Marek Zgabaj</title>
+            <para>Pri budovaní grafického rozhrania som použil komponenty dostupné od Ionicu ktoré spolu z funkcionalitou napísanou v angulari umožňujú prepínanie medzi štyrmi tabmi. 
+                Na prvom tabe je umiestnená ilustračná mapa celej zoo. 
+                Nasledujúci tab obsahuje list jednotlivých zvierat z krátkym popisom. 
+                Po Kliknutí na polžku sa zobrazí text k danému zvieraťu a to buď vo verzii pre dospelých alebo pre deti. Prepínanie textov je umiestnené v tabe z nastaveniami. 
+                V poslednom tabe je umiestnené tlačítko ktoré zapne kameru pre možnosť jednoduchého vyhľadania zvieraťa pomocou skenovania QR kódu.   </para>
+        </section>
+        <section>
+            <title>Michal Ringer</title>
+            <para>Na aplikácii ZooApp som pracoval na backende a na základnej funkcionalite. 
+                Na tento účel som používal javascript a HTML. Medzi moje hlavné úlohy patrila integrácia poskytnutého QR scanner pluginu do aplikácie, automatické presmerovanie na stránku naskenovaného zvieraťa, nastavenie prepínania medzi "kids" a "adult" verziou, či príprava mapy. 
+                Hlavným problémom bolo nastavenie presmerovania zo stavu skenovania na stránku zvieraťa a prepínanie medzi verziami textu. 
+                Možné prispôsobenia (vzhľadom na obsah) zahŕňajú interaktívnu mapu či úpravu parsovania informácii z QR kódu.</para>
+        </section>
+    </chapter>
+</book>

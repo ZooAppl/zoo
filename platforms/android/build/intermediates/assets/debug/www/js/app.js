@@ -95,12 +95,19 @@ var zooapp = angular.module('starter', ['ngCordova', 'ionic', 'starter.controlle
 
 });
 
-zooapp.controller("ZooAppController", function($scope, $cordovaBarcodeScanner) {
+
+
+//pouzitie barcode-scanner pluginu
+zooapp.controller("ZooAppController", function($scope, $cordovaBarcodeScanner, $state, Animals) {
  
     $scope.scanBarcode = function() {
         $cordovaBarcodeScanner.scan().then(function(imageData) {
-            alert(imageData.text);
-            console.log("Barcode Format -> " + imageData.format);
+            /*alert(imageData.text);*/
+            var animalId = Animals.id(imageData.text);
+            if(animalId != null){
+              $state.go('tab.animals-detail', {animalId: animalId});
+            }
+            console.log("QR code text -> " + imageData.text);
             console.log("Cancelled -> " + imageData.cancelled);
         }, function(error) {
             console.log("An error happened -> " + error);

@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-var zooapp = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+var zooapp = angular.module('starter', ['ngCordova', 'ionic', 'starter.controllers', 'starter.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -95,14 +95,23 @@ var zooapp = angular.module('starter', ['ionic', 'starter.controllers', 'starter
 
 });
 
-zooapp.controller("ZooAppController", function($scope, $cordovaBarcodeScanner){
- $scope.scanBarcode = function() {
+
+
+//pouzitie barcode-scanner pluginu
+zooapp.controller("ZooAppController", function($scope, $cordovaBarcodeScanner, $state, Animals) {
+ 
+    $scope.scanBarcode = function() {
         $cordovaBarcodeScanner.scan().then(function(imageData) {
-            alert(imageData.text);
-            console.log("Barcode Format -> " + imageData.format);
+            /*alert(imageData.text);*/
+            var animalId = Animals.id(imageData.text);
+            if(animalId != null){
+              $state.go('tab.animals-detail', {animalId: animalId});
+            }
+            console.log("QR code text -> " + imageData.text);
             console.log("Cancelled -> " + imageData.cancelled);
         }, function(error) {
             console.log("An error happened -> " + error);
         });
-    }
+    };
+ 
 });

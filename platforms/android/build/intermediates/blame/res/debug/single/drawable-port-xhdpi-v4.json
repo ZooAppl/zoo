@@ -1,14 +1,14 @@
 [
     {
+        "merged": "D:\\home\\marek\\Documents\\Git\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi-v4\\screen.png",
+        "source": "D:\\home\\marek\\Documents\\Git\\ZooApp\\platforms\\android\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
         "merged": "D:\\home\\marek\\Documents\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi-v4\\screen.png",
         "source": "D:\\home\\marek\\Documents\\ZooApp\\platforms\\android\\res\\drawable-port-xhdpi\\screen.png"
     },
     {
         "merged": "D:\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi-v4\\screen.png",
         "source": "D:\\ZooApp\\platforms\\android\\res\\drawable-port-xhdpi\\screen.png"
-    },
-    {
-        "merged": "D:\\home\\marek\\Documents\\Git\\ZooApp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi-v4\\screen.png",
-        "source": "D:\\home\\marek\\Documents\\Git\\ZooApp\\platforms\\android\\res\\drawable-port-xhdpi\\screen.png"
     }
 ]

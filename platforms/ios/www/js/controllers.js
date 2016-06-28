@@ -15,14 +15,19 @@ angular.module('starter.controllers', [])
   $scope.animals = Animals.all();
 })
 
-.controller('AnimalDetailCtrl', function($scope, $stateParams, Animals) {
+.controller('AnimalDetailCtrl', function($scope, $stateParams, Animals, Kids) {
   $scope.animal = Animals.get($stateParams.animalId);
+  $scope.kids = !Kids.get();
 })
 
-.controller('SettingsCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
+.controller('SettingsCtrl', function($scope, Kids) {
+  $scope.kids = true;
+  $scope.notifications = true;
+  $scope.toggleValue = function(){
+    Kids.set($scope.kids);
+    $scope.kids = !$scope.kids;
+    console.log(Kids.get());
+  };    
 })
-.controller('QRcodeCtrl', function($scope){})
+.controller('QRcodeCtrl', function($scope, Animals){})
 ;
