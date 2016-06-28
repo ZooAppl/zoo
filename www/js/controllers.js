@@ -22,7 +22,6 @@ angular.module('starter.controllers', [])
 
 .controller('SettingsCtrl', function($scope, Kids) {
   $scope.kids = true;
-  $scope.notifications = true;
   $scope.toggleValue = function(){
     Kids.set($scope.kids);
     $scope.kids = !$scope.kids;
